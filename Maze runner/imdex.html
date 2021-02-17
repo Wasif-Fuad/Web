@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+</head>
+<body>
+<canvas  id="myCanvas"></canvas>
+<div><h1>MAZE RUNNER</h1>
+<div class="options ">
+	
+	<div class="buttons">
+		 <h1>Generate Maze</h1>
+		<button  id="dfs"class="btn btn-primary">DFS</button>
+		<button  id="bfs" class="btn btn-primary">BFS</button>
+   </div class="buttons">
+   <div class="buttons">
+   	<h1>Frame Rate</h1>
+   	<input   id="frate" type="number "  class="input-group  form-control "  name="" width="50px" >
+   	<button  id="set" class="  btn btn-primary">SET</button>
+   </div>
+
+   <div class="buttons">
+   	<h1>Find Path</h1>
+   	<button  id="fdfs" class=" btn btn-primary">DFS</button>
+	<button  id="fbfs" class=" btn btn-primary">BFS</button>
+
+   </div>
+<br>
+
+</div>
+<div class="result ">
+	
+	<p class="sy" class="dfs-result"> Current Pointer </p>
+		<p class="sg" class="bfs-result"> Fall Back Pointer</p>
+
+</div>
+</div>
+<script type="text/javascript" src="js/cell.js"></script>
+<script type="text/javascript" src="js/grid.js"></script>
+<script type="text/javascript" src="js/event.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
